@@ -1,0 +1,116 @@
+@import url("https://fonts.google.com/specimen/Overpass");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(216deg, 12%, 8%);
+}
+
+.space-evenly, main.card #thank-you-state, main.card #rating-state div, main.card #rating-state {
+  justify-content: space-evenly;
+}
+
+.setFontFamily, main.card #rating-state .btn-block, main.card #rating-state div button, .main {
+  font-family: "Overpass", sans-serif;
+}
+
+.pushFromTop, main.card #thank-you-state div .banner, main.card #rating-state .btn-block, main.card #rating-state h1 {
+  margin-top: 25px;
+}
+
+.main-and-submit-radius, main.card #thank-you-state div .banner, main.card #rating-state .btn-block, main.card {
+  border-radius: 30px;
+}
+
+.white-text, main.card #rating-state div button:hover {
+  color: white;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.medium-gray, main.card #rating-state div button, main.card #rating-state p {
+  color: hsl(216deg, 12%, 54%);
+}
+
+.orange-background, main.card #rating-state .btn-block, main.card #rating-state div button:hover {
+  background-color: hsl(25deg, 97%, 53%);
+}
+
+.main {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+main.card {
+  background-color: hsl(213deg, 19%, 18%);
+  height: max-content;
+}
+main.card .state, main.card #thank-you-state, main.card #rating-state {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  width: 325px;
+}
+main.card #rating-state {
+  height: 360px;
+}
+main.card #rating-state img {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+main.card #rating-state h1 {
+  font-size: clamp(1.125rem, 1.5vw, 1.75rem);
+  font-weight: 700;
+}
+main.card #rating-state p {
+  font-weight: 400;
+}
+main.card #rating-state div button {
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  background-color: hsl(218deg, 13%, 24%);
+  border: none;
+}
+main.card #rating-state .btn-block {
+  height: 45px;
+}
+main.card #rating-state .btn-block:hover {
+  background-color: white;
+  color: hsl(25deg, 97%, 53%);
+}
+main.card #thank-you-state {
+  display: none;
+  height: 345px;
+  align-items: center;
+}
+main.card #thank-you-state img {
+  width: 145px;
+  height: 97px;
+}
+main.card #thank-you-state div .banner {
+  background-color: rgb(47, 54, 63);
+  color: hsl(25deg, 97%, 53%);
+  padding: 10px 12px;
+}
+main.card #thank-you-state h2 {
+  font-size: 1.125rem;
+}
+main.card #thank-you-state p {
+  color: hsl(217deg, 12%, 63%);
+  font-size: 0.75rem;
+}
+
+.attribution {
+  font-size: 11px;
+}
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}/*# sourceMappingURL=styles.css.map */
